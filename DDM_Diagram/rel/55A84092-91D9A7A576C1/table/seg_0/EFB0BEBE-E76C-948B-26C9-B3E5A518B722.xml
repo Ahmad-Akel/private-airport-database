@@ -1,0 +1,112 @@
+<?xml version = '1.0' encoding = 'UTF-8'?>
+<Table class="oracle.dbtools.crest.model.design.relational.Table" directorySegmentName="seg_0" id="EFB0BEBE-E76C-948B-26C9-B3E5A518B722" name="Aircraft">
+<createdBy>Ahmad</createdBy>
+<createdTime>2022-12-05 01:30:08 UTC</createdTime>
+<generatorID>16F54847-63D8-C583-6331-17C009B08CE2</generatorID>
+<ownerDesignName>DDM_Diagram</ownerDesignName>
+<allowColumnReorder>false</allowColumnReorder>
+<existDependencyGenerateInDDl>true</existDependencyGenerateInDDl>
+<parsed>true</parsed>
+<columns itemClass="oracle.dbtools.crest.model.design.relational.Column">
+<Column name="aircraft_id" id="D43D23DD-0799-1F45-3093-A6656C40CA4E">
+<createdBy>Ahmad</createdBy>
+<createdTime>2022-12-05 01:30:08 UTC</createdTime>
+<generatorID>2D933F87-476F-36DA-DEDC-934E2DC2BA73</generatorID>
+<ownerDesignName>DDM_Diagram</ownerDesignName>
+<useDomainConstraints>false</useDomainConstraints>
+<use>1</use>
+<logicalDatatype>LOGDT019</logicalDatatype>
+<dataTypePrecision>4</dataTypePrecision>
+<ownDataTypeParameters>,4,</ownDataTypeParameters>
+<autoIncrementCycle>false</autoIncrementCycle>
+</Column>
+<Column name="model_number" id="1C324B15-3D88-EE0E-EA04-9ED3C64FA107">
+<createdBy>Ahmad</createdBy>
+<createdTime>2022-12-05 01:30:08 UTC</createdTime>
+<generatorID>8E6202ED-BF78-5C52-077A-338DB62621F3</generatorID>
+<ownerDesignName>DDM_Diagram</ownerDesignName>
+<useDomainConstraints>false</useDomainConstraints>
+<use>1</use>
+<logicalDatatype>LOGDT019</logicalDatatype>
+<dataTypePrecision>20</dataTypePrecision>
+<ownDataTypeParameters>,20,</ownDataTypeParameters>
+<autoIncrementCycle>false</autoIncrementCycle>
+</Column>
+<Column name="passenger_capacity" id="1B9361FE-C2DC-A1E9-793D-D220433F2D15">
+<createdBy>Ahmad</createdBy>
+<createdTime>2022-12-05 01:30:08 UTC</createdTime>
+<generatorID>20DADD73-2FAF-BB49-A33F-54D79FAA5A1E</generatorID>
+<ownerDesignName>DDM_Diagram</ownerDesignName>
+<useDomainConstraints>false</useDomainConstraints>
+<use>1</use>
+<logicalDatatype>LOGDT019</logicalDatatype>
+<dataTypePrecision>3</dataTypePrecision>
+<ownDataTypeParameters>,3,</ownDataTypeParameters>
+<autoIncrementCycle>false</autoIncrementCycle>
+</Column>
+<Column name="cargo_capacity" id="966173D8-6DD8-5141-3E90-3466B227D692">
+<createdBy>Ahmad</createdBy>
+<createdTime>2022-12-05 01:30:08 UTC</createdTime>
+<generatorID>BCCFA4CC-D8E8-45A6-54D0-C8DC3FE28CD6</generatorID>
+<ownerDesignName>DDM_Diagram</ownerDesignName>
+<useDomainConstraints>false</useDomainConstraints>
+<use>1</use>
+<logicalDatatype>LOGDT019</logicalDatatype>
+<dataTypePrecision>5</dataTypePrecision>
+<dataTypeScale>5</dataTypeScale>
+<ownDataTypeParameters>,5,5</ownDataTypeParameters>
+<autoIncrementCycle>false</autoIncrementCycle>
+</Column>
+<Column name="hangar" id="0E7343EF-C51A-D15C-0C67-2C2FE51F2459">
+<createdBy>Ahmad</createdBy>
+<createdTime>2022-12-05 01:30:08 UTC</createdTime>
+<generatorID>9DAF699B-241B-2A0C-C22E-CF8AD41ADC4D</generatorID>
+<ownerDesignName>DDM_Diagram</ownerDesignName>
+<useDomainConstraints>false</useDomainConstraints>
+<use>1</use>
+<logicalDatatype>LOGDT019</logicalDatatype>
+<dataTypePrecision>3</dataTypePrecision>
+<ownDataTypeParameters>,3,</ownDataTypeParameters>
+<autoIncrementCycle>false</autoIncrementCycle>
+</Column>
+<Column name="Adress_Adress_ID" id="3FF123ED-430E-8649-16F4-568A75ABD2D8">
+<createdBy>Ahmad</createdBy>
+<createdTime>2022-12-05 01:30:08 UTC</createdTime>
+<ownerDesignName>DDM_Diagram</ownerDesignName>
+<useDomainConstraints>false</useDomainConstraints>
+<use>1</use>
+<logicalDatatype>LOGDT019</logicalDatatype>
+<ownDataTypeParameters>,,</ownDataTypeParameters>
+<previousColumn>false</previousColumn>
+<autoIncrementCycle>false</autoIncrementCycle>
+<associations>
+<colAssociation fkAssociation="6701C7A7-8D3F-D3E0-F82F-B42CA5A63A7B" referredColumn="910B7E9F-C65A-6600-F0AA-60748E8FCB26"/>
+</associations>
+</Column>
+</columns>
+<indexes itemClass="oracle.dbtools.crest.model.design.relational.Index">
+<ind_PK_UK id="C3AD64E1-49C2-7590-8D9D-61D2CC23109E" name="Aircraft_PK">
+<createdBy>Ahmad</createdBy>
+<createdTime>2022-12-05 01:30:08 UTC</createdTime>
+<generatorID>0FD50F37-0502-0684-DC66-9C5528A84FFB</generatorID>
+<ownerDesignName>DDM_Diagram</ownerDesignName>
+<pk>true</pk>
+<indexState>Primary Constraint</indexState>
+<isSurrogateKey>false</isSurrogateKey>
+<indexColumnUsage>
+<colUsage columnID="D43D23DD-0799-1F45-3093-A6656C40CA4E"/>
+</indexColumnUsage>
+</ind_PK_UK>
+<ind_PK_UK id="F29EE7C2-F151-66E8-13A9-7ECBB9AF9F78" name="Aircraft_Adress_FK">
+<createdBy>Ahmad</createdBy>
+<createdTime>2022-12-05 01:30:08 UTC</createdTime>
+<generatorID>371B95E8-0EDF-EB21-3ECA-8A146570BE07</generatorID>
+<ownerDesignName>DDM_Diagram</ownerDesignName>
+<indexState>Foreign Key</indexState>
+<isSurrogateKey>false</isSurrogateKey>
+<indexColumnUsage>
+<colUsage columnID="3FF123ED-430E-8649-16F4-568A75ABD2D8"/>
+</indexColumnUsage>
+</ind_PK_UK>
+</indexes>
+</Table>

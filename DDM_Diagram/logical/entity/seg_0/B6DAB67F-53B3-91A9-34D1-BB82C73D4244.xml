@@ -1,0 +1,73 @@
+<?xml version = '1.0' encoding = 'UTF-8'?>
+<Entity class="oracle.dbtools.crest.model.design.logical.Entity" directorySegmentName="seg_0" id="B6DAB67F-53B3-91A9-34D1-BB82C73D4244" name="Airplane">
+<createdBy>Ahmad</createdBy>
+<createdTime>2022-12-05 00:33:37 UTC</createdTime>
+<ownerDesignName>DDM_Diagram</ownerDesignName>
+<engineerTo>
+<item key="55A84092-AFFE-BE2C-4FD5-91D9A7A576C1" value="true"/>
+</engineerTo>
+<adequatelyNormalized>NO</adequatelyNormalized>
+<expectedVolumes>0</expectedVolumes>
+<fwdEngineeringStrategyName>Single Table</fwdEngineeringStrategyName>
+<growthPercent>0</growthPercent>
+<growthType>Year</growthType>
+<maxVolumes>9999999</maxVolumes>
+<minVolumes>0</minVolumes>
+<normalForm>Third</normalForm>
+<attributes itemClass="oracle.dbtools.crest.model.design.logical.Attribute">
+<Attribute name="airport_id" id="2E553EE3-09AD-AF50-268A-77415AE0F0D5">
+<createdBy>Ahmad</createdBy>
+<createdTime>2022-12-05 00:40:32 UTC</createdTime>
+<ownerDesignName>DDM_Diagram</ownerDesignName>
+<engineerTo>
+<item key="55A84092-AFFE-BE2C-4FD5-91D9A7A576C1" value="true"/>
+</engineerTo>
+<useDomainConstraints>false</useDomainConstraints>
+<use>1</use>
+<logicalDatatype>LOGDT019</logicalDatatype>
+<dataTypePrecision>10</dataTypePrecision>
+<ownDataTypeParameters>,10,</ownDataTypeParameters>
+</Attribute>
+<Attribute name="reg_number" id="09E212AB-A9EB-1337-4B62-6C202BFD2F9A">
+<createdBy>Ahmad</createdBy>
+<createdTime>2022-12-05 00:36:10 UTC</createdTime>
+<ownerDesignName>DDM_Diagram</ownerDesignName>
+<engineerTo>
+<item key="55A84092-AFFE-BE2C-4FD5-91D9A7A576C1" value="true"/>
+</engineerTo>
+<useDomainConstraints>false</useDomainConstraints>
+<use>1</use>
+<logicalDatatype>LOGDT019</logicalDatatype>
+<ownDataTypeParameters>,,</ownDataTypeParameters>
+</Attribute>
+<Attribute name="aircraft_id" id="33A833B5-7080-D8CC-AB1E-FCFF2D249FEB">
+<createdBy>Ahmad</createdBy>
+<createdTime>2022-12-05 00:51:59 UTC</createdTime>
+<generatorID>21C155F1-212B-D29D-6BAE-011983801F6C</generatorID>
+<ownerDesignName>DDM_Diagram</ownerDesignName>
+<engineerTo>
+<item key="55A84092-AFFE-BE2C-4FD5-91D9A7A576C1" value="true"/>
+</engineerTo>
+<referedAttribute>2D933F87-476F-36DA-DEDC-934E2DC2BA73</referedAttribute>
+<useDomainConstraints>false</useDomainConstraints>
+<use>1</use>
+<logicalDatatype>LOGDT019</logicalDatatype>
+<dataTypePrecision>4</dataTypePrecision>
+<ownDataTypeParameters>,,</ownDataTypeParameters>
+</Attribute>
+</attributes>
+<identifiers itemClass="oracle.dbtools.crest.model.design.logical.CandidateKey">
+<identifier id="FACA7374-8791-979F-752A-1CADC5A9CB22" name="Airport PK">
+<createdBy>Ahmad</createdBy>
+<createdTime>2022-12-05 00:40:50 UTC</createdTime>
+<ownerDesignName>DDM_Diagram</ownerDesignName>
+<engineerTo>
+<item key="55A84092-AFFE-BE2C-4FD5-91D9A7A576C1" value="true"/>
+</engineerTo>
+<pk>true</pk>
+<usedAttributes>
+<attributeRef>2E553EE3-09AD-AF50-268A-77415AE0F0D5</attributeRef>
+</usedAttributes>
+</identifier>
+</identifiers>
+</Entity>

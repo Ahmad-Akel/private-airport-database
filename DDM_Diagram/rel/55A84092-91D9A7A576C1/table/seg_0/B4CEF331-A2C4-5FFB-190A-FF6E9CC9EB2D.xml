@@ -1,0 +1,74 @@
+<?xml version = '1.0' encoding = 'UTF-8'?>
+<Table class="oracle.dbtools.crest.model.design.relational.Table" directorySegmentName="seg_0" id="B4CEF331-A2C4-5FFB-190A-FF6E9CC9EB2D" name="Maintenance">
+<createdBy>Ahmad</createdBy>
+<createdTime>2022-12-05 01:30:08 UTC</createdTime>
+<generatorID>DAD1FB88-8814-B284-8BD7-FB1A514EAD79</generatorID>
+<ownerDesignName>DDM_Diagram</ownerDesignName>
+<allowColumnReorder>false</allowColumnReorder>
+<existDependencyGenerateInDDl>true</existDependencyGenerateInDDl>
+<parsed>true</parsed>
+<columns itemClass="oracle.dbtools.crest.model.design.relational.Column">
+<Column name="maintenance_id" id="9F8FF796-3AC2-D15F-A180-78F021218872">
+<createdBy>Ahmad</createdBy>
+<createdTime>2022-12-05 01:30:08 UTC</createdTime>
+<generatorID>4BA51964-6137-7F14-71E2-D5690F2A434B</generatorID>
+<ownerDesignName>DDM_Diagram</ownerDesignName>
+<useDomainConstraints>false</useDomainConstraints>
+<use>1</use>
+<logicalDatatype>LOGDT019</logicalDatatype>
+<dataTypePrecision>4</dataTypePrecision>
+<ownDataTypeParameters>,4,</ownDataTypeParameters>
+<autoIncrementCycle>false</autoIncrementCycle>
+</Column>
+<Column name="maintenance_date" id="69E88A72-AD2D-BD22-2EB8-43BE189D534B">
+<createdBy>Ahmad</createdBy>
+<createdTime>2022-12-05 01:30:08 UTC</createdTime>
+<generatorID>68BFA3EF-C20A-95D8-6A0C-6DED16EC4CD2</generatorID>
+<ownerDesignName>DDM_Diagram</ownerDesignName>
+<useDomainConstraints>false</useDomainConstraints>
+<use>1</use>
+<logicalDatatype>LOGDT007</logicalDatatype>
+<ownDataTypeParameters>,,</ownDataTypeParameters>
+<autoIncrementCycle>false</autoIncrementCycle>
+</Column>
+<Column name="maintenance_hours" id="68FF228C-D652-043E-85C2-FFCAAE185035">
+<createdBy>Ahmad</createdBy>
+<createdTime>2022-12-05 01:30:08 UTC</createdTime>
+<generatorID>4AE3282C-C9D5-1291-1B6A-CECA279780AF</generatorID>
+<ownerDesignName>DDM_Diagram</ownerDesignName>
+<useDomainConstraints>false</useDomainConstraints>
+<use>1</use>
+<logicalDatatype>LOGDT019</logicalDatatype>
+<dataTypePrecision>2</dataTypePrecision>
+<dataTypeScale>2</dataTypeScale>
+<ownDataTypeParameters>,2,2</ownDataTypeParameters>
+<autoIncrementCycle>false</autoIncrementCycle>
+</Column>
+<Column name="maintenance_type" id="07F68A7F-F486-B8A4-BA90-74C1744AA816">
+<createdBy>Ahmad</createdBy>
+<createdTime>2022-12-05 01:30:08 UTC</createdTime>
+<generatorID>9E6B013A-346C-47A3-2FAB-DB681ED25C4D</generatorID>
+<ownerDesignName>DDM_Diagram</ownerDesignName>
+<useDomainConstraints>false</useDomainConstraints>
+<use>1</use>
+<logicalDatatype>LOGDT024</logicalDatatype>
+<dataTypeSize>255</dataTypeSize>
+<ownDataTypeParameters>255,,</ownDataTypeParameters>
+<autoIncrementCycle>false</autoIncrementCycle>
+</Column>
+</columns>
+<indexes itemClass="oracle.dbtools.crest.model.design.relational.Index">
+<ind_PK_UK id="A99CD046-3146-65DE-8131-4893D5FA2B6E" name="Maintenance_PK">
+<createdBy>Ahmad</createdBy>
+<createdTime>2022-12-05 01:30:08 UTC</createdTime>
+<generatorID>7434102A-133B-6EB6-662A-8CA9474BFE0C</generatorID>
+<ownerDesignName>DDM_Diagram</ownerDesignName>
+<pk>true</pk>
+<indexState>Primary Constraint</indexState>
+<isSurrogateKey>false</isSurrogateKey>
+<indexColumnUsage>
+<colUsage columnID="9F8FF796-3AC2-D15F-A180-78F021218872"/>
+</indexColumnUsage>
+</ind_PK_UK>
+</indexes>
+</Table>

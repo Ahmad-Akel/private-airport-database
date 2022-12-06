@@ -1,0 +1,18 @@
+<?xml version = '1.0' encoding = 'UTF-8'?>
+<Relation class="oracle.dbtools.crest.model.design.logical.Relation" name="airplane_owner" directorySegmentName="seg_0" id="CF9284CF-0038-BF26-3A1A-1BFD221509F3">
+<createdBy>Ahmad</createdBy>
+<createdTime>2022-12-05 01:12:22 UTC</createdTime>
+<ownerDesignName>DDM_Diagram</ownerDesignName>
+<engineerTo>
+<item key="55A84092-AFFE-BE2C-4FD5-91D9A7A576C1" value="true"/>
+</engineerTo>
+<identifying>false</identifying>
+<optionalSource>true</optionalSource>
+<optionalTarget>false</optionalTarget>
+<sourceCardinality>*</sourceCardinality>
+<sourceEntity>0344A021-C842-5D05-48E9-A42CE7812124</sourceEntity>
+<targetCardinalityString>*</targetCardinalityString>
+<targetEntity>B6DAB67F-53B3-91A9-34D1-BB82C73D4244</targetEntity>
+<transferable>true</transferable>
+<deleteRule>NO ACTION</deleteRule>
+</Relation>

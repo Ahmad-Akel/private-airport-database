@@ -1,0 +1,85 @@
+<?xml version = '1.0' encoding = 'UTF-8'?>
+<Entity class="oracle.dbtools.crest.model.design.logical.Entity" directorySegmentName="seg_0" id="DAD1FB88-8814-B284-8BD7-FB1A514EAD79" name="Maintenance">
+<createdBy>Ahmad</createdBy>
+<createdTime>2022-12-05 00:55:10 UTC</createdTime>
+<ownerDesignName>DDM_Diagram</ownerDesignName>
+<engineerTo>
+<item key="55A84092-AFFE-BE2C-4FD5-91D9A7A576C1" value="true"/>
+</engineerTo>
+<adequatelyNormalized>NO</adequatelyNormalized>
+<expectedVolumes>0</expectedVolumes>
+<fwdEngineeringStrategyName>Single Table</fwdEngineeringStrategyName>
+<growthPercent>0</growthPercent>
+<growthType>Year</growthType>
+<maxVolumes>9999999</maxVolumes>
+<minVolumes>0</minVolumes>
+<normalForm>Third</normalForm>
+<attributes itemClass="oracle.dbtools.crest.model.design.logical.Attribute">
+<Attribute name="maintenance_id" id="4BA51964-6137-7F14-71E2-D5690F2A434B">
+<createdBy>Ahmad</createdBy>
+<createdTime>2022-12-05 00:55:31 UTC</createdTime>
+<ownerDesignName>DDM_Diagram</ownerDesignName>
+<engineerTo>
+<item key="55A84092-AFFE-BE2C-4FD5-91D9A7A576C1" value="true"/>
+</engineerTo>
+<useDomainConstraints>false</useDomainConstraints>
+<use>1</use>
+<logicalDatatype>LOGDT019</logicalDatatype>
+<dataTypePrecision>4</dataTypePrecision>
+<ownDataTypeParameters>,4,</ownDataTypeParameters>
+</Attribute>
+<Attribute name="maintenance_date" id="68BFA3EF-C20A-95D8-6A0C-6DED16EC4CD2">
+<createdBy>Ahmad</createdBy>
+<createdTime>2022-12-05 00:56:14 UTC</createdTime>
+<ownerDesignName>DDM_Diagram</ownerDesignName>
+<engineerTo>
+<item key="55A84092-AFFE-BE2C-4FD5-91D9A7A576C1" value="true"/>
+</engineerTo>
+<useDomainConstraints>false</useDomainConstraints>
+<use>1</use>
+<logicalDatatype>LOGDT007</logicalDatatype>
+<ownDataTypeParameters>,,</ownDataTypeParameters>
+</Attribute>
+<Attribute name="maintenance_hours" id="4AE3282C-C9D5-1291-1B6A-CECA279780AF">
+<createdBy>Ahmad</createdBy>
+<createdTime>2022-12-05 00:56:42 UTC</createdTime>
+<ownerDesignName>DDM_Diagram</ownerDesignName>
+<engineerTo>
+<item key="55A84092-AFFE-BE2C-4FD5-91D9A7A576C1" value="true"/>
+</engineerTo>
+<useDomainConstraints>false</useDomainConstraints>
+<use>1</use>
+<logicalDatatype>LOGDT019</logicalDatatype>
+<dataTypePrecision>2</dataTypePrecision>
+<dataTypeScale>2</dataTypeScale>
+<ownDataTypeParameters>,2,2</ownDataTypeParameters>
+</Attribute>
+<Attribute name="maintenance_type" id="9E6B013A-346C-47A3-2FAB-DB681ED25C4D">
+<createdBy>Ahmad</createdBy>
+<createdTime>2022-12-05 00:57:26 UTC</createdTime>
+<ownerDesignName>DDM_Diagram</ownerDesignName>
+<engineerTo>
+<item key="55A84092-AFFE-BE2C-4FD5-91D9A7A576C1" value="true"/>
+</engineerTo>
+<useDomainConstraints>false</useDomainConstraints>
+<use>1</use>
+<logicalDatatype>LOGDT024</logicalDatatype>
+<dataTypeSize>255</dataTypeSize>
+<ownDataTypeParameters>255,,</ownDataTypeParameters>
+</Attribute>
+</attributes>
+<identifiers itemClass="oracle.dbtools.crest.model.design.logical.CandidateKey">
+<identifier id="7434102A-133B-6EB6-662A-8CA9474BFE0C" name="Maintenance PK">
+<createdBy>Ahmad</createdBy>
+<createdTime>2022-12-05 00:55:50 UTC</createdTime>
+<ownerDesignName>DDM_Diagram</ownerDesignName>
+<engineerTo>
+<item key="55A84092-AFFE-BE2C-4FD5-91D9A7A576C1" value="true"/>
+</engineerTo>
+<pk>true</pk>
+<usedAttributes>
+<attributeRef>4BA51964-6137-7F14-71E2-D5690F2A434B</attributeRef>
+</usedAttributes>
+</identifier>
+</identifiers>
+</Entity>

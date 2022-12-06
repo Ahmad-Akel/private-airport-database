@@ -1,0 +1,18 @@
+<?xml version = '1.0' encoding = 'UTF-8'?>
+<Relation class="oracle.dbtools.crest.model.design.logical.Relation" name="aircrafts_adress" directorySegmentName="seg_0" id="371B95E8-0EDF-EB21-3ECA-8A146570BE07">
+<createdBy>Ahmad</createdBy>
+<createdTime>2022-12-05 00:50:34 UTC</createdTime>
+<ownerDesignName>DDM_Diagram</ownerDesignName>
+<engineerTo>
+<item key="55A84092-AFFE-BE2C-4FD5-91D9A7A576C1" value="true"/>
+</engineerTo>
+<identifying>false</identifying>
+<optionalSource>true</optionalSource>
+<optionalTarget>false</optionalTarget>
+<sourceCardinality>1</sourceCardinality>
+<sourceEntity>DB10C292-600E-8314-EE5E-303DA9D677DA</sourceEntity>
+<targetCardinalityString>*</targetCardinalityString>
+<targetEntity>16F54847-63D8-C583-6331-17C009B08CE2</targetEntity>
+<transferable>true</transferable>
+<deleteRule>NO ACTION</deleteRule>
+</Relation>

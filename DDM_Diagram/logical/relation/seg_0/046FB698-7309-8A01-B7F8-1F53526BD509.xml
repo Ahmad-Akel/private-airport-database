@@ -1,0 +1,18 @@
+<?xml version = '1.0' encoding = 'UTF-8'?>
+<Relation class="oracle.dbtools.crest.model.design.logical.Relation" name="airport_maintenance" directorySegmentName="seg_0" id="046FB698-7309-8A01-B7F8-1F53526BD509">
+<createdBy>Ahmad</createdBy>
+<createdTime>2022-12-05 00:58:36 UTC</createdTime>
+<ownerDesignName>DDM_Diagram</ownerDesignName>
+<engineerTo>
+<item key="55A84092-AFFE-BE2C-4FD5-91D9A7A576C1" value="true"/>
+</engineerTo>
+<identifying>false</identifying>
+<optionalSource>true</optionalSource>
+<optionalTarget>false</optionalTarget>
+<sourceCardinality>*</sourceCardinality>
+<sourceEntity>B6DAB67F-53B3-91A9-34D1-BB82C73D4244</sourceEntity>
+<targetCardinalityString>*</targetCardinalityString>
+<targetEntity>DAD1FB88-8814-B284-8BD7-FB1A514EAD79</targetEntity>
+<transferable>true</transferable>
+<deleteRule>NO ACTION</deleteRule>
+</Relation>
